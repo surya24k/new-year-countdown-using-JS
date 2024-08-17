@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(assets/new\ year.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.time-section {
+    margin: 0 20px;
+}
+
+.time-section span {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.time-section p {
+    font-size: 20px;
+    color: yellow;
+}
